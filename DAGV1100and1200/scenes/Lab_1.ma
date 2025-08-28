@@ -1,6 +1,6 @@
 //Maya ASCII 2026 scene
-//Name: sphere.ma
-//Last modified: Thu, Aug 28, 2025 11:36:00 AM
+//Name: Lab_1.ma
+//Last modified: Thu, Aug 28, 2025 11:36:27 AM
 //Codeset: UTF-8
 requires maya "2026";
 requires -nodeType "materialxStack" -nodeType "MaterialXSurfaceShader" -dataType "MxDocumentStackData"
@@ -12,7 +12,7 @@ fileInfo "product" "Maya 2026";
 fileInfo "version" "2026";
 fileInfo "cutIdentifier" "202507081222-4d6919b75c";
 fileInfo "osv" "Mac OS X 15.6";
-fileInfo "UUID" "90D568CD-8A46-BFEF-A531-70BA6CAF6F55";
+fileInfo "UUID" "5FD91AE5-4649-775D-2260-06BC2B2BC294";
 createNode transform -s -n "persp";
 	rename -uid "3150D35F-4B4B-0C29-322B-879EC5CD838A";
 	setAttr ".v" no;
@@ -1099,4 +1099,4 @@ connectAttr "WindowShape.iog.og[0]" ":initialShadingGroup.dsm" -na;
 connectAttr "WindowShape.ciog.cog[0]" ":initialShadingGroup.dsm" -na;
 connectAttr "groupId1.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId2.msg" ":initialShadingGroup.gn" -na;
-// End of sphere.ma
+// End of Lab_1.ma
