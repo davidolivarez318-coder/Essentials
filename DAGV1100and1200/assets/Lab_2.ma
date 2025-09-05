@@ -1,6 +1,6 @@
 //Maya ASCII 2026 scene
 //Name: Lab_2.ma
-//Last modified: Wed, Sep 03, 2025 09:18:44 AM
+//Last modified: Fri, Sep 05, 2025 11:58:49 AM
 //Codeset: UTF-8
 requires maya "2026";
 requires -nodeType "materialxStack" -nodeType "MaterialXSurfaceShader" -dataType "MxDocumentStackData"
@@ -12,18 +12,18 @@ fileInfo "product" "Maya 2026";
 fileInfo "version" "2026";
 fileInfo "cutIdentifier" "202507081222-4d6919b75c";
 fileInfo "osv" "Mac OS X 15.6";
-fileInfo "UUID" "AFE82749-C543-9CCD-BC8E-DEA031E69C5E";
+fileInfo "UUID" "7DEB9799-9946-7162-DABA-D8A3EA12895D";
 createNode transform -s -n "persp";
 	rename -uid "3150D35F-4B4B-0C29-322B-879EC5CD838A";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 56.695997290654063 30.724611495007629 28.194831376015102 ;
-	setAttr ".r" -type "double3" -19.538352729624833 59.400000000001178 0 ;
+	setAttr ".t" -type "double3" 70.456466273525038 37.961827435324849 66.644782780266027 ;
+	setAttr ".r" -type "double3" -19.538352729627299 34.59999999999976 0 ;
 	setAttr ".rpt" -type "double3" -6.4231189949665404e-17 -8.5587960143568365e-16 9.3615955148335363e-16 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "228EC763-2B44-A972-C8DF-97B24A0AC836";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 62.452846399549848;
+	setAttr ".coi" 106.96785901687754;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -207,7 +207,7 @@ createNode materialxStack -n "materialXStackShape1" -p "materialXStack1";
 		+ "        \"name\": \"document4\"\n    },\n    {\n        \"document\": \"AAABsHicdZFJDoMwDEX3nMLKumJUEQuGTZdtr4BcCCpSAigMgts3DKnSiK4S21/fz3aczZzBREVft01CPNslWWrFHAcqamSzXgoikloA8QMXvCN/UTFAg5wmRMt4BIalk7l+FBUWtH9jSQWBpi1pSatd+7zlbJfnv7LVX3aom25U3kXLWqFMtyAgMCEbZejafuhfQD5R5IfB+rsScDZKR4PaEkcnNZqGnpvsSqNhS2TD4AzWGPrvJs7WdmAbXeQxnO81UusDCtWPLQ==\",\n        \"name\": \"document5\"\n    },\n    {\n        \"document\": \"AAAB5HicdZHLDoIwEEX3fMWka8NDYnTBIzFu9RfIWIbYpAykgNG/tyIQQE2aNNPens69E6WPUsOdTKMqjkXg+iJNnKjEloxC/ZhfhQeROADRGZ941IoZGEuKxVQHAtpnbU+azhQoqblhTkYAVznlVHyUl1N2fYuzpehNtmzFddcOXFnpyozIvggF3FF3tvTd/QZ8N9xtg3EX4P2AKJbIOTWSWNI/mEXYNQAibzLUl0OfYyQz09nS9aiYGbZmV89/GV3F9TfD77iHhld/2AF60wQT5wWzcJ2Z\",\n        \"name\": \"document6\"\n    },\n    {\n        \"document\": \"AAAChnicnZJNboMwEIX3nGLkdVSKsumCEKnJNrkCmthj1ZKxkX+icPuaBCihtItI3jx73puRvyn3t0bDlZxX1uxY8fbO9lVWNhjIKdS3+dP2g1UZQHnCDj+1MgYMNrRjky4YhK5NNz46iZz8FwpyDIwVJEg+Ks/H+tIX189FfXLKVqaNYcjlVls3Rt7FlsEVdUyy2EB/GOQrRmU4GkGek+H0SoBviUeN7vDqBEJJGf3UW2qL4ce57iGe5g1OcRW6/41lPn35XQ4/OUKbYamfuYwVMyQJx8K+hmIB9E/KvxdiGHjRI61YPu1YlX0DxwrRTw==\",\n"
 		+ "        \"name\": \"document7\"\n    },\n    {\n        \"document\": \"AAAB0nicdVFND4IwDL3zK5qeDR+i4gEwMZ7V6A9YJtRIMjYywOi/d5JhdJHL0te+9fW16eZRC7iTbislM4z8EDe5l9a8I11x8fguxWvMPYBUNSRZc9Gs7fWVFwSS15Shm44QumdjCha3N16SRpCqpJKuGe53zP3DfrlvOSNYyabvrMqFt8QKJZQe2w8gRrhz0RsY+otlsppB6K/fz3IeJ1GCEAyjB67gkLXxaNoqHQz1uD2xs2NnpP06cXr8G93Zw+RyJtdpPThS5lzB51659wJWk524\",\n        \"name\": \"document8\"\n    },\n    {\n        \"document\": \"AAABm3icdZDLCoMwEEX3fsUw6+IDW+jCx6bblv6BDBqrEJMQH+jfN1oVtS1kc5ObO+dOEPcVh47pupQiRM92MY6soKKG6ZJ4v33yrxhZAMGdBnoWUrxAUMVCXLWH0AzK3NStzilldUEZ0whCZixj+cf5uCVqNCd705hsskuh2mbOTSWXeomchI/QEW+NdO3zCVxz7AuCM2E5K8ck5/ilyYY12cMujg2nYTx8/8V3aPm3+veWZuDDDLN3Z118ZL0B73yImg==\",\n        \"name\": \"document9\"\n    },\n    {\n        \"document\": \"AAABk3icdZDNCoMwEITvPsWy51IrXnrwB0qv7SvIVmMrjYnEH/TtmwQjNrSQy5DZb2c2yeeWw8RU30iRYnQ8YZ4FSUsDUw3xef8VnzELAJIbLXThjRAgqGUpXqR8d/RkCMPSad2PqqaS9S+qmEIQsmIVq1M0c/dr8TCjxbfJcDW5Ed04rNRScqkc0ooYYSI+ahkdwDyE0AYKt0RWrmjXYeUZT2FNkaM6xy6jzueN/8rmNfxb27/PGtfboO8dbgfPgg842Iaa\",\n        \"name\": \"document10\"\n"
 		+ "    },\n    {\n        \"document\": \"AAABmnicdZDNCoMwEITvPsWSs6hBCwr+HNprS99AgsYqxETiD/r2TYKKSnscdnb224mzuWUwUdk3gicIOx7KUituyUBlQ9h8HPkhSi2A+EkW8q4F/wAnLU3QXSgTRjAsnVL9KCtS0L4mJZUIuChpSasE6a3XI+/0Yn426VSV2/BuHNbMQjAht0gjfAQTYaOSnhME2AbPCaNbhAMb1G3XkLk7mpHrle2ZNVp7cmPamTfHAVehXtZ/YV6e/dvAuagV9pKvanf33lPrC110hwU=\",\n        \"name\": \"document11\"\n    },\n    {\n        \"document\": \"AAABoXicdVBJCoMwFN17is9fFzVVO4DDot229AYSNK2CJhIH9PaNQUWlXYVH3vSfH/VlAR2TdS54gMS0MQoNv6QNkzkt+vWXc8HQAPAfdKCvTPAPcFqyAG9CkY4IzVApVLfyTRNWZzRlEoGLlKXsHeCoet7jahTGW9LoqnxzXrXN5JmIQsjZUgMHoaNFq6BtEvfq2ucD2Kbr6YeQk+d4CJYuaC0NNZzC5pumhJETaxKZc2bGqrVqvJP/aru7+e8Q272msjt/tb61zB8aX0NxiGU=\",\n        \"name\": \"document12\"\n    },\n    {\n        \"document\": \"AAABoXicdVBLCoMwFNx7ipB10ai0NeBn0W5begMJmlYhJhI/6O2bhCgq7SoZ3ryZeRNnU8PASGVXC55A30UwS524IT2VNWHTdhRGMHUAiB9kJq9K8A/gpKEJvAlFCiHo51ahbpBvUtCuIiWVEHBR0pK+E6i3nve81Yv5nqRVlW7N26G3moVgQi6SBiiDkbBBQeRihE9APwGOzvqHwmtwwRB4JqC3JjTQmi03WQfNyQ3JX3wWxia1SnxY/5X2cPPfIvZ92bAHfdW+t9afOl9ShYh3\",\n        \"name\": \"document13\"\n"
-		+ "    }\n]\n");
+		+ "    },\n    {\n        \"document\": \"AAACuHicnZJNa4QwEIbv/oqQ8+JHdVcX1IW21/bao0zjSAMxShJl/feNomKt20Mhh0yceWac901v91qQHpXmjcxo4Pr0ljtpDQYVB3HffgoTmjuEpG8wwLPgUhIJNWb0A4QoWpAoKDFDa190pypgqL+gREWJbEosscroWPn+WnyOxcXPpJFs2Vy2nZm5rBGNWpBTEFLSg+hs6LuX8/lEghPx3diPwyihxDtgGAVSt6BQsuERyjLsOa7nkoEsUTMLwP8AFFYCmeE9N+sAlWjAbH7lGiXXB/PrFlknQL38uYs4iJ6Sy7SL3W2mpt4q2hTOu19knpuNOcWUFCytloyNiFbAXfmReDsLPPTFbwvNA+96WFN6qytz5xvhEd0i\",\n        \"name\": \"document14\"\n    }\n]\n");
 createNode transform -n "Window";
 	rename -uid "126B3176-154E-3548-E6BD-B495ADDEC0A3";
 	setAttr ".t" -type "double3" -5.7727276035591775 12.511541724364232 -15.291867244428563 ;
@@ -566,33 +566,62 @@ createNode mesh -n "RugShape" -p "Rug";
 	setAttr ".cdvm[0]"  0 1 1;
 createNode transform -n "Bookshelf";
 	rename -uid "4E6AA10C-704D-D478-D09D-C4942D6045B5";
-	setAttr ".t" -type "double3" 12.578414320143734 9.979443106663286 -13.321222403388507 ;
+	setAttr ".t" -type "double3" 12.578414320143734 9.576039475869571 -13.321222403388507 ;
 	setAttr ".s" -type "double3" 9.1955978555281792 18.353226017222401 4.2263780009805574 ;
 createNode mesh -n "BookshelfShape" -p "Bookshelf";
 	rename -uid "7566C3FF-504F-D308-953E-72891BCE4635";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
+	setAttr ".pv" -type "double2" 8.1743040084838867 8.9586067199707031 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr ".cuvs" -type "string" "map1";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
+	setAttr -s 136 ".pt[0:135]" -type "float3"  0 2.7939677e-09 0 0 2.7939677e-09 
+		0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 
+		0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 
+		0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 
+		0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 
+		0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 
+		0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 
+		0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 
+		0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 
+		0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 
+		0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 
+		0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 
+		0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 
+		0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 
+		0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 
+		0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 
+		0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 
+		0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 
+		0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 
+		0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 
+		0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 
+		0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 
+		0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 
+		0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 
+		0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 
+		0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 
+		0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 
+		0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 0 0 2.7939677e-09 0;
 createNode transform -n "Book";
 	rename -uid "D8D90236-B743-24F3-C1EB-C6AF97780980";
-	setAttr ".t" -type "double3" 21.347439980159876 -18.813784861455247 -13.50001088719878 ;
+	setAttr ".t" -type "double3" 21.347439980159876 -19.217188492248962 -13.50001088719878 ;
 	setAttr ".s" -type "double3" 1.4500099301379952 1.4069421024091544 1 ;
 createNode transform -n "Book1";
 	rename -uid "01DFEE3C-6546-52CD-57BC-CB87B6726102";
-	setAttr ".t" -type "double3" 22.388592346586545 -18.813784861455247 -13.50001088719878 ;
+	setAttr ".t" -type "double3" 22.388592346586545 -19.217188492248962 -13.50001088719878 ;
 	setAttr ".s" -type "double3" 1.4500099301379952 1.4507997420917258 1 ;
 createNode transform -n "Book2";
 	rename -uid "913DED29-504E-7F3E-4C54-4D8F7EDD0416";
-	setAttr ".t" -type "double3" 24.541857356332013 -18.813784861455247 -13.50001088719878 ;
+	setAttr ".t" -type "double3" 24.541857356332013 -19.217188492248962 -13.50001088719878 ;
 	setAttr ".s" -type "double3" 1.4500099301379952 1.4069421024091544 1 ;
 createNode transform -n "Books";
 	rename -uid "8460B163-A346-9722-0094-F18515E0AFCC";
-	setAttr ".t" -type "double3" 0 0.13002833881360409 -1.3747660369144539 ;
+	setAttr ".t" -type "double3" 0 -0.2733752919801109 -1.3747660369144539 ;
 createNode transform -n "Bookpages" -p "Books";
 	rename -uid "9E23D513-2447-852C-7D5A-04A8FE798256";
 	setAttr ".t" -type "double3" 10.263498402863636 16.563928105858487 -11.455807577627755 ;
@@ -2998,7 +3027,7 @@ createNode mesh -n "Bookpages16Shape" -p "|Books|Bookpages16";
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 createNode transform -n "Books1";
 	rename -uid "07A78F53-0F4B-3035-F6DD-63BF0C673FD2";
-	setAttr ".t" -type "double3" 0 -9.000098581939822 -1.3747660369144539 ;
+	setAttr ".t" -type "double3" 0 -9.403502212733537 -1.3747660369144539 ;
 createNode transform -n "Bookpages" -p "Books1";
 	rename -uid "0E78CD57-E54A-327B-739C-54BE6A0EB9D2";
 	setAttr ".t" -type "double3" 10.263498402863636 16.563928105858487 -11.455807577627755 ;
@@ -5527,21 +5556,36 @@ createNode mesh -n "Bookpages16Shape" -p "|Books1|Bookpages16";
 	setAttr ".cvd" -type "dataPolyComponent" Index_Data Vertex 0 ;
 	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
+createNode transform -n "pCube1";
+	rename -uid "8B4F28B8-AB48-0166-046D-90BDDA9168F2";
+	setAttr ".t" -type "double3" -17.490543842381506 12 0 ;
+	setAttr ".s" -type "double3" 0.16643740440584198 11.966105030990184 22.798652798534278 ;
+createNode mesh -n "pCubeShape1" -p "pCube1";
+	rename -uid "2426EC05-8549-C3E4-14EA-90B19A75F911";
+	setAttr -k off ".v";
+	setAttr ".vir" yes;
+	setAttr ".vif" yes;
+	setAttr ".pv" -type "double2" 0.5 0.25 ;
+	setAttr ".uvst[0].uvsn" -type "string" "map1";
+	setAttr ".cuvs" -type "string" "map1";
+	setAttr ".dcc" -type "string" "Ambient+Diffuse";
+	setAttr ".covm[0]"  0 1 1;
+	setAttr ".cdvm[0]"  0 1 1;
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "D9629A85-E547-7708-E243-A19B978B1943";
-	setAttr -s 16 ".lnk";
-	setAttr -s 16 ".slnk";
+	rename -uid "C1730788-6547-A412-BF6A-B7801D2366C8";
+	setAttr -s 17 ".lnk";
+	setAttr -s 17 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "B2F4353A-7246-6942-1D6A-55844257F32A";
+	rename -uid "3F24DFAC-B942-6EB8-D398-EFB7A791535F";
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "59D26CAA-514F-4CD9-11C7-54AB30B42AA2";
+	rename -uid "51EC321C-A749-6C92-FEA7-20A15ECCB29F";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "B00EEC35-F148-5948-C1AD-CCB3FC6561C9";
+	rename -uid "827E0073-9C4B-312A-81D0-B3B4304D17E3";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "4AF247CA-1C43-BE09-59DC-0F97E7E5AA96";
 	setAttr ".ufem" -type "stringArray" 0  ;
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "8AC48123-DF44-9399-62CD-73A7825B4A13";
+	rename -uid "39C667DA-FB45-531C-D877-61A41CCC5CF6";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "4A9900C5-4B44-340C-6B98-3BAF661FF363";
 	setAttr ".g" yes;
@@ -6363,6 +6407,108 @@ createNode polyCube -n "polyCube7";
 createNode polyCube -n "polyCube8";
 	rename -uid "6E0E098C-9545-ADB9-73EF-978979BFC05C";
 	setAttr ".cuv" 4;
+createNode polyCube -n "polyCube9";
+	rename -uid "1A441DE0-624E-67C4-6CE6-1CB71F799BCD";
+	setAttr ".cuv" 4;
+createNode polyBevel3 -n "polyBevel1";
+	rename -uid "E1D4123B-6740-F2F1-1AD7-0D832873C16C";
+	setAttr ".uopa" yes;
+	setAttr ".ics" -type "componentList" 1 "e[1]";
+	setAttr ".ix" -type "matrix" 11.966105030990184 0 0 0 0 11.966105030990184 0 0 0 0 11.966105030990184 0
+		 0 23.047523620184784 0 1;
+	setAttr ".ws" yes;
+	setAttr ".oaf" yes;
+	setAttr ".f" 0.2;
+	setAttr ".sg" 9;
+	setAttr ".at" 180;
+	setAttr ".sn" yes;
+	setAttr ".mv" yes;
+	setAttr ".mvt" 0.0001;
+	setAttr ".sa" 30;
+createNode polyBevel3 -n "polyBevel2";
+	rename -uid "938418FB-1F4F-B057-B529-2A8F51939435";
+	setAttr ".uopa" yes;
+	setAttr ".ics" -type "componentList" 1 "e[1]";
+	setAttr ".ix" -type "matrix" 11.966105030990184 0 0 0 0 11.966105030990184 0 0 0 0 11.966105030990184 0
+		 0 23.047523620184784 0 1;
+	setAttr ".ws" yes;
+	setAttr ".oaf" yes;
+	setAttr ".f" 0.2;
+	setAttr ".sg" 9;
+	setAttr ".at" 180;
+	setAttr ".sn" yes;
+	setAttr ".mv" yes;
+	setAttr ".mvt" 0.0001;
+	setAttr ".sa" 30;
+createNode polyBevel3 -n "polyBevel3";
+	rename -uid "36F43E51-BB43-B140-D266-B9B33AD10AE1";
+	setAttr ".uopa" yes;
+	setAttr ".ics" -type "componentList" 1 "e[0]";
+	setAttr ".ix" -type "matrix" 11.966105030990184 0 0 0 0 11.966105030990184 0 0 0 0 11.966105030990184 0
+		 0 23.047523620184784 0 1;
+	setAttr ".ws" yes;
+	setAttr ".oaf" yes;
+	setAttr ".f" 0.2;
+	setAttr ".sg" 9;
+	setAttr ".at" 180;
+	setAttr ".sn" yes;
+	setAttr ".mv" yes;
+	setAttr ".mvt" 0.0001;
+	setAttr ".sa" 30;
+createNode polyBevel3 -n "polyBevel4";
+	rename -uid "9DD368A0-9E4B-4538-4FD1-299BDFB908E4";
+	setAttr ".uopa" yes;
+	setAttr ".ics" -type "componentList" 1 "e[0]";
+	setAttr ".ix" -type "matrix" 11.966105030990184 0 0 0 0 11.966105030990184 0 0 0 0 11.966105030990184 0
+		 0 23.047523620184784 0 1;
+	setAttr ".ws" yes;
+	setAttr ".oaf" yes;
+	setAttr ".f" 0.2;
+	setAttr ".sg" 9;
+	setAttr ".at" 180;
+	setAttr ".sn" yes;
+	setAttr ".mv" yes;
+	setAttr ".mvt" 0.0001;
+	setAttr ".sa" 30;
+createNode MaterialXSurfaceShader -n "Maya_Blinn6";
+	rename -uid "8A0844DA-DA44-11B5-A433-2A90E2A192E5";
+	setAttr ".up" -type "string" "|materialXStack1|materialXStackShape1,%document14%Maya_Blinn1";
+createNode shadingEngine -n "Maya_Blinn6SG";
+	rename -uid "275AFC3D-C64E-0DC7-A492-D8B0E64C6E45";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "materialInfo15";
+	rename -uid "09B4B05A-C340-9554-AB44-0283FA69626B";
+createNode polyBevel3 -n "polyBevel5";
+	rename -uid "E01E74F0-5B49-33E0-0B09-039FD57BE33E";
+	setAttr ".uopa" yes;
+	setAttr ".ics" -type "componentList" 1 "e[70]";
+	setAttr ".ix" -type "matrix" 9.1955978555281792 0 0 0 0 18.353226017222401 0 0 0 0 4.2263780009805574 0
+		 12.578414320143734 9.979443106663286 -13.321222403388507 1;
+	setAttr ".ws" yes;
+	setAttr ".oaf" yes;
+	setAttr ".f" 0.3;
+	setAttr ".sg" 6;
+	setAttr ".at" 180;
+	setAttr ".sn" yes;
+	setAttr ".mv" yes;
+	setAttr ".mvt" 0.0001;
+	setAttr ".sa" 30;
+createNode polyBevel3 -n "polyBevel6";
+	rename -uid "521E23CA-3D4F-A5CA-7EDB-1BAF5FCB0283";
+	setAttr ".uopa" yes;
+	setAttr ".ics" -type "componentList" 1 "e[45]";
+	setAttr ".ix" -type "matrix" 9.1955978555281792 0 0 0 0 18.353226017222401 0 0 0 0 4.2263780009805574 0
+		 12.578414320143734 9.979443106663286 -13.321222403388507 1;
+	setAttr ".ws" yes;
+	setAttr ".oaf" yes;
+	setAttr ".f" 0.3;
+	setAttr ".sg" 6;
+	setAttr ".at" 180;
+	setAttr ".sn" yes;
+	setAttr ".mv" yes;
+	setAttr ".mvt" 0.0001;
+	setAttr ".sa" 30;
 select -ne :time1;
 	setAttr ".o" 1;
 	setAttr ".unw" 1;
@@ -6374,10 +6520,10 @@ select -ne :hardwareRenderingGlobals;
 	setAttr ".fprt" yes;
 	setAttr ".rtfm" 3;
 select -ne :renderPartition;
-	setAttr -s 16 ".st";
+	setAttr -s 17 ".st";
 select -ne :renderGlobalsList1;
 select -ne :defaultShaderList1;
-	setAttr -s 19 ".s";
+	setAttr -s 20 ".s";
 select -ne :postProcessList1;
 	setAttr -s 2 ".p";
 select -ne :defaultRenderingList1;
@@ -6428,9 +6574,10 @@ connectAttr "polyCube5.out" "GlassShape.i";
 connectAttr "polySmartExtrude15.out" "pCylinderShape1.i";
 connectAttr "polyTorus1.out" "pTorusShape1.i";
 connectAttr "polySphere1.out" "RugShape.i";
-connectAttr "polySmartExtrude24.out" "BookshelfShape.i";
+connectAttr "polyBevel6.out" "BookshelfShape.i";
 connectAttr "createColorSet2.og" "|Books|Bookcover1|Bookcover1Shape.i";
 connectAttr "polyCube8.out" "|Books|Bookpages2|Bookpages2Shape.i";
+connectAttr "polyBevel4.out" "pCubeShape1.i";
 relationship "link" ":lightLinker1" ":initialShadingGroup.message" ":defaultLightSet.message";
 relationship "link" ":lightLinker1" ":initialParticleSE.message" ":defaultLightSet.message";
 relationship "link" ":lightLinker1" "Maya_Blinn1SG.message" ":defaultLightSet.message";
@@ -6447,6 +6594,7 @@ relationship "link" ":lightLinker1" "Maya_Blinn5SG.message" ":defaultLightSet.me
 relationship "link" ":lightLinker1" "Maya_Phong2SG.message" ":defaultLightSet.message";
 relationship "link" ":lightLinker1" "Maya_Phong3SG.message" ":defaultLightSet.message";
 relationship "link" ":lightLinker1" "Maya_Phong4SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "Maya_Blinn6SG.message" ":defaultLightSet.message";
 relationship "shadowLink" ":lightLinker1" ":initialShadingGroup.message" ":defaultLightSet.message";
 relationship "shadowLink" ":lightLinker1" ":initialParticleSE.message" ":defaultLightSet.message";
 relationship "shadowLink" ":lightLinker1" "Maya_Blinn1SG.message" ":defaultLightSet.message";
@@ -6463,6 +6611,7 @@ relationship "shadowLink" ":lightLinker1" "Maya_Blinn5SG.message" ":defaultLight
 relationship "shadowLink" ":lightLinker1" "Maya_Phong2SG.message" ":defaultLightSet.message";
 relationship "shadowLink" ":lightLinker1" "Maya_Phong3SG.message" ":defaultLightSet.message";
 relationship "shadowLink" ":lightLinker1" "Maya_Phong4SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "Maya_Blinn6SG.message" ":defaultLightSet.message";
 connectAttr "layerManager.dli[0]" "defaultLayer.id";
 connectAttr "renderLayerManager.rlmi[0]" "defaultRenderLayer.rlid";
 connectAttr "materialXStackShape1.sk" "Maya_Blinn1.sk";
@@ -6714,6 +6863,24 @@ connectAttr "|Books|Bookcover1|Bookcover1Shape.wm" "polySmartExtrude25.mp";
 connectAttr "polySplit27.out" "polySplit28.ip";
 connectAttr "polySplit26.out" "polySplit27.ip";
 connectAttr "polyCube7.out" "polySplit26.ip";
+connectAttr "polyCube9.out" "polyBevel1.ip";
+connectAttr "pCubeShape1.wm" "polyBevel1.mp";
+connectAttr "polyBevel1.out" "polyBevel2.ip";
+connectAttr "pCubeShape1.wm" "polyBevel2.mp";
+connectAttr "polyBevel2.out" "polyBevel3.ip";
+connectAttr "pCubeShape1.wm" "polyBevel3.mp";
+connectAttr "polyBevel3.out" "polyBevel4.ip";
+connectAttr "pCubeShape1.wm" "polyBevel4.mp";
+connectAttr "materialXStackShape1.sk" "Maya_Blinn6.sk";
+connectAttr "Maya_Blinn6.oc" "Maya_Blinn6SG.ss";
+connectAttr "pCubeShape1.iog" "Maya_Blinn6SG.dsm" -na;
+connectAttr "Maya_Blinn6SG.msg" "materialInfo15.sg";
+connectAttr "Maya_Blinn6.msg" "materialInfo15.m";
+connectAttr "Maya_Blinn6.msg" "materialInfo15.t" -na;
+connectAttr "polySmartExtrude24.out" "polyBevel5.ip";
+connectAttr "BookshelfShape.wm" "polyBevel5.mp";
+connectAttr "polyBevel5.out" "polyBevel6.ip";
+connectAttr "BookshelfShape.wm" "polyBevel6.mp";
 connectAttr "Maya_Blinn1SG.pa" ":renderPartition.st" -na;
 connectAttr "Maya_Blinn2SG.pa" ":renderPartition.st" -na;
 connectAttr "Maya_Lambert1SG.pa" ":renderPartition.st" -na;
@@ -6728,6 +6895,7 @@ connectAttr "Maya_Blinn5SG.pa" ":renderPartition.st" -na;
 connectAttr "Maya_Phong2SG.pa" ":renderPartition.st" -na;
 connectAttr "Maya_Phong3SG.pa" ":renderPartition.st" -na;
 connectAttr "Maya_Phong4SG.pa" ":renderPartition.st" -na;
+connectAttr "Maya_Blinn6SG.pa" ":renderPartition.st" -na;
 connectAttr "Maya_Blinn1.msg" ":defaultShaderList1.s" -na;
 connectAttr "Maya_Blinn2.msg" ":defaultShaderList1.s" -na;
 connectAttr "Maya_Lambert1.msg" ":defaultShaderList1.s" -na;
@@ -6741,6 +6909,7 @@ connectAttr "Maya_Blinn5.msg" ":defaultShaderList1.s" -na;
 connectAttr "Maya_Phong2.msg" ":defaultShaderList1.s" -na;
 connectAttr "Maya_Phong3.msg" ":defaultShaderList1.s" -na;
 connectAttr "Maya_Phong4.msg" ":defaultShaderList1.s" -na;
+connectAttr "Maya_Blinn6.msg" ":defaultShaderList1.s" -na;
 connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
 connectAttr "WindowShape.iog.og[0]" ":initialShadingGroup.dsm" -na;
 connectAttr "WindowShape.ciog.cog[0]" ":initialShadingGroup.dsm" -na;
