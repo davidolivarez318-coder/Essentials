@@ -1,6 +1,6 @@
 //Maya ASCII 2026 scene
-//Name: Lab_3.ma
-//Last modified: Fri, Sep 19, 2025 09:15:29 PM
+//Name: Lab_4.ma
+//Last modified: Fri, Sep 19, 2025 09:15:42 PM
 //Codeset: UTF-8
 file -rdi 1 -ns "Potted_plant" -rfn "Potted_plantRN" -op "v=0;" -typ "mayaAscii"
 		 "/Users/davidolivarez318/Git Repo/Essentials/Essentials/DAGV1100and1200//scenes/Potted_plant.ma";
@@ -16,7 +16,7 @@ fileInfo "product" "Maya 2026";
 fileInfo "version" "2026";
 fileInfo "cutIdentifier" "202507081222-4d6919b75c";
 fileInfo "osv" "Mac OS X 15.6";
-fileInfo "UUID" "D6B14562-4F4D-A913-176E-5CBBBF2A27B2";
+fileInfo "UUID" "DCC85021-3C4B-5D5F-64AF-8893BBD9526B";
 createNode transform -s -n "persp";
 	rename -uid "3150D35F-4B4B-0C29-322B-879EC5CD838A";
 	setAttr ".v" no;
@@ -14920,20 +14920,20 @@ createNode mesh -n "pCubeShape1" -p "pCube1";
 	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "4179613F-4045-B004-99FB-33A0F15B0940";
+	rename -uid "789F750A-2440-F22F-48C8-DF93302CB720";
 	setAttr -s 26 ".lnk";
 	setAttr -s 26 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "A20BC917-BD48-1105-986D-C9AA37B02ECC";
+	rename -uid "F5753376-AA44-8552-FE94-3A8C61CD1ADD";
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "4E9FBBC7-E64E-1AAC-1075-008A743DC58C";
+	rename -uid "A12D924A-1F42-CD8F-F3EF-EFBD02D6FA75";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "93A3F7C8-1B4F-3566-1286-6091E4CA230A";
+	rename -uid "29C98196-6940-1ADE-67EC-B9BFFCFA1822";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "4AF247CA-1C43-BE09-59DC-0F97E7E5AA96";
 	setAttr ".ufem" -type "stringArray" 0  ;
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "E02837A9-B740-4A00-8931-6EA6A04F8C2A";
+	rename -uid "9E02722D-F346-A556-96B3-AE85CE69A8D8";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "4A9900C5-4B44-340C-6B98-3BAF661FF363";
 	setAttr ".g" yes;
@@ -15600,4 +15600,4 @@ connectAttr "WindowShape.ciog.cog[0]" ":initialShadingGroup.dsm" -na;
 connectAttr "WindowShape.iog.og[0]" ":initialShadingGroup.dsm" -na;
 connectAttr "groupId2.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId3.msg" ":initialShadingGroup.gn" -na;
-// End of Lab_3.ma
+// End of Lab_4.ma
