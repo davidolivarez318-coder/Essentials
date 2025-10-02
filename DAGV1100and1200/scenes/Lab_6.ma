@@ -1,6 +1,6 @@
 //Maya ASCII 2026 scene
-//Name: Lab_4.ma
-//Last modified: Thu, Oct 02, 2025 09:17:44 AM
+//Name: Lab_6.ma
+//Last modified: Thu, Oct 02, 2025 09:17:56 AM
 //Codeset: UTF-8
 file -rdi 1 -ns "Potted_plant" -rfn "Potted_plantRN" -op "v=0;" -typ "mayaAscii"
 		 "/Users/davidolivarez318/Git Repo/Essentials/Essentials/DAGV1100and1200//scenes/Potted_plant.ma";
@@ -18,7 +18,7 @@ fileInfo "product" "Maya 2026";
 fileInfo "version" "2026";
 fileInfo "cutIdentifier" "202507081222-4d6919b75c";
 fileInfo "osv" "Mac OS X 15.6";
-fileInfo "UUID" "8FF82B42-CE4F-5299-07E2-F7A697CA8B75";
+fileInfo "UUID" "9E96A155-E44F-F728-408B-1E9FEE904FC2";
 fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "3150D35F-4B4B-0C29-322B-879EC5CD838A";
@@ -17884,4 +17884,4 @@ connectAttr "aiSkyDomeLightShape1.ltd" ":lightList1.l" -na;
 connectAttr "file1.msg" ":defaultTextureList1.tx" -na;
 connectAttr "pointLight1.iog" ":defaultLightSet.dsm" -na;
 connectAttr "aiSkyDomeLight1.iog" ":defaultLightSet.dsm" -na;
-// End of Lab_4.ma
+// End of Lab_6.ma
