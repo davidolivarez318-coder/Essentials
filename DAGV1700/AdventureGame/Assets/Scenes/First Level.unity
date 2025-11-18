@@ -1007,8 +1007,8 @@ Transform:
   m_GameObject: {fileID: 168057474}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.70391, y: 9.03, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 2.70391, y: 2.27, z: 0}
+  m_LocalScale: {x: 1, y: 24.511875, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2976,13 +2976,13 @@ CharacterController:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Height: 0
+  m_Height: 1.27
   m_Radius: 0.53
   m_SlopeLimit: 45
-  m_StepOffset: 0.3
+  m_StepOffset: 0
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
-  m_Center: {x: 2.69, y: 0.95, z: 0}
+  m_Center: {x: 2.69, y: 1.015, z: 0}
 --- !u!4 &936999639
 Transform:
   m_ObjectHideFlags: 0
@@ -2992,7 +2992,7 @@ Transform:
   m_GameObject: {fileID: 936999637}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.78, y: -3.84, z: 0.12}
+  m_LocalPosition: {x: -6.81, y: -3.89, z: 0.12}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -3014,7 +3014,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   jumpForce: 1
-  gravity: -9.81
+  gravity: -10
 --- !u!1 &982169904 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2007349814172654925, guid: b80cb8a7f87e3b640b1624966cc2d6aa, type: 3}
@@ -4640,7 +4640,7 @@ Transform:
   m_GameObject: {fileID: 1193489343}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.4200003, y: -2.7399998, z: -9.88}
+  m_LocalPosition: {x: -3.45, y: -1.9299998, z: -0.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -4704,6 +4704,11 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 18.71, y: 18.710003, z: 18.710003}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!198 &1226748966 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 645642809458145206, guid: 21cf8601776316b43805b045ccac4d29, type: 3}
+  m_PrefabInstance: {fileID: 5596591700431761233}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1237973892
 GameObject:
   m_ObjectHideFlags: 0
@@ -4855,6 +4860,7 @@ GameObject:
   - component: {fileID: 1241501562}
   - component: {fileID: 1241501561}
   - component: {fileID: 1241501560}
+  - component: {fileID: 1241501563}
   m_Layer: 0
   m_Name: CinemachineCamera
   m_TagString: Untagged
@@ -4880,7 +4886,7 @@ MonoBehaviour:
     AngularDampingMode: 0
     RotationDamping: {x: 1, y: 1, z: 1}
     QuaternionDamping: 1
-  FollowOffset: {x: 3.36, y: 1.1, z: -10}
+  FollowOffset: {x: 3.36, y: 1.96, z: -10}
 --- !u!114 &1241501561
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4933,12 +4939,26 @@ Transform:
   m_GameObject: {fileID: 1241501559}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.4200003, y: -2.7399998, z: -9.88}
+  m_LocalPosition: {x: -3.45, y: -1.9300001, z: -9.88}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1241501563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1241501559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d75924d76b05344aa410607bc57db98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BoundingVolume: {fileID: 168057475}
+  SlowingDistance: 100
 --- !u!1 &1253642567
 GameObject:
   m_ObjectHideFlags: 0
@@ -4952,7 +4972,7 @@ GameObject:
   - component: {fileID: 1253642569}
   - component: {fileID: 1253642572}
   m_Layer: 0
-  m_Name: Idle (32x32)_4
+  m_Name: Mushy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5974,7 +5994,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1405244206}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 7134193504672363915, guid: 27307e8a90475df4b91a20c1b2b95d22, type: 2}
   m_audioClip: {fileID: 0}
@@ -6843,6 +6863,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1226748966}
+        m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
+        m_MethodName: Emit
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 15
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
@@ -8450,11 +8482,11 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.13, y: -0.2, z: 0.2}
+  m_Size: {x: 0.11, y: 0.19, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!198 &2043894852 stripped
 ParticleSystem:
@@ -8818,6 +8850,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 645642809458145206, guid: 21cf8601776316b43805b045ccac4d29, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 802628876689292391, guid: 21cf8601776316b43805b045ccac4d29, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8.57

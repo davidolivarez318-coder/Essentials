@@ -83,6 +83,7 @@ public class NewCharacterController : MonoBehaviour
 
         // Apply velocity
         controller.Move(velocity * Time.deltaTime);
+        
     }
 
     /// <summary>
